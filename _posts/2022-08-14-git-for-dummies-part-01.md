@@ -3,7 +3,8 @@ title: Git for Dummies - Part 01
 author: ranadeep
 date: 2022-08-14 03:41:00 +0530
 categories: [Git, How To]
-tags: [intro, installation]
+tags: [intro]
+mermaid: true
 ---
 
 ## What is a Version Control System?
@@ -14,11 +15,11 @@ Git is a version control system.
 
 ## Brief History of Git
 
-During the early years of Linux Kernel development (1991 - 2002), [Linus Torvalds](https://en.wikipedia.org/wiki/Linus_Torvalds), who is the creator and historically, the main developer of Linux kernel had a large number of volunteer developers working on the project and their contributions had to be managed. Initially all changes to the software were passed around in patches and stored in archives. 
+During the early years of Linux Kernel development (1991 - 2002), [Linus Torvalds](https://en.wikipedia.org/wiki/Linus_Torvalds){:target="_blank"}, who is the creator and historically, the main developer of Linux kernel had a large number of volunteer developers working on the project and their contributions had to be managed. Initially all changes to the software were passed around in patches and stored in archives. 
 
-However, in 2002 the project started using a proprietary DVCS (distributed version control system) called [BitKeeper](https://en.wikipedia.org/wiki/BitKeeper). It was a great tool for managing all the developer contributions and in spite of being a paid software, it was available to Linux developers for free due to an agreement between the two parties.
+However, in 2002 the project started using a proprietary DVCS (distributed version control system) called [BitKeeper](https://en.wikipedia.org/wiki/BitKeeper){:target="_blank"}. It was a great tool for managing all the developer contributions and in spite of being a paid software, it was available to Linux developers for free due to an agreement between the two parties.
 
-Everything was fine until April 2005, when [Andrew Tridgell](https://en.wikipedia.org/wiki/Andrew_Tridgell), an Australian computer programmer, tried to produce a free software, now known as [SourcePuller](https://sourceforge.net/projects/sourcepuller/files/) which interoperated with the BitKeeper source code repository. This led to a fiery controversy which resulted in BitKeeper revoking the tool's free-of-charge status for Linux developers. Many developers lost their access to the BitKeeper and Linus Torvalds knew that he had to come up with something fast. It is said that he took a vacation! And the result of that vacation was the birth of a new version control system - Git!
+Everything was fine until April 2005, when [Andrew Tridgell](https://en.wikipedia.org/wiki/Andrew_Tridgell){:target="_blank"}, an Australian computer programmer, tried to produce a free software, now known as [SourcePuller](https://sourceforge.net/projects/sourcepuller/files/){:target="_blank"} which interoperated with the BitKeeper source code repository. This led to a fiery controversy which resulted in BitKeeper revoking the tool's free-of-charge status for Linux developers. Many developers lost their access to the BitKeeper and Linus Torvalds knew that he had to come up with something fast. It is said that he took a vacation! And the result of that vacation was the birth of a new version control system - Git!
 
 ## Why is Git Popular?
 
@@ -32,7 +33,7 @@ Git has several strong features like
 
 ## How Git Works?
 
-Git uses simple commands to allow users to track code changes and manage projects. At the very center of Git is a [repository](https://en.wikipedia.org/wiki/Software_repository) which contains a project. This repository can be stored locally or on the web, e.g. GitHub. Throughout the process of development, a project has several save points. These save points are called **commits**. A commit history contains all the changes implemented during the development process and allows smooth rollback or fast forward to any point in the commit history. Git uses **SHA-1 hashes** to refer to the commits. Every commit has an unique hash pointing towards it. This allows Git to create a tree-like structure to store and retrieve data.
+Git uses simple commands to allow users to track code changes and manage projects. At the very center of Git is a [repository](https://en.wikipedia.org/wiki/Software_repository){:target="_blank"} which contains a project. This repository can be stored locally or on the web, e.g. GitHub. Throughout the process of development, a project has several save points. These save points are called **commits**. A commit history contains all the changes implemented during the development process and allows smooth rollback or fast forward to any point in the commit history. Git uses **SHA-1 hashes** to refer to the commits. Every commit has an unique hash pointing towards it. This allows Git to create a tree-like structure to store and retrieve data.
 
 In a typical Git project, the files go through the following stages:
 
