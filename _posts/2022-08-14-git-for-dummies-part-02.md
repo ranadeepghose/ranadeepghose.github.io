@@ -21,8 +21,8 @@ git --version
 ```
 If it is installed in your Mac, it will return the Git version; if not, it will show the following message:
 
-![Mac message if Git not installed](/assets/img/post-images/mac-git-version-check.png){: .shadow}
-_shadow effect (visible in light mode)_
+![Mac message if Git not installed](/assets/img/post-images/mac-git-version-check.png){: .shadow width="1000" height="453" style="max-width: 90%"}
+
 
 Click on the install button to install developer tools required to use Git on your Mac. The developer tools include XCode and XCode App Development utilities. 
 
