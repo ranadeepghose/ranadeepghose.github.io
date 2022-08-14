@@ -49,13 +49,13 @@ brew install git
 
 If you already have [MacPorts](https://www.macports.org/install.php){:target="_blank"} installed to manage packages on MacOS, use the following instructions to install Git:
 
-1. Update MacPorts from the Terminal
+- Update MacPorts from the Terminal
 
 ```console
 sudo port selfupdate
 ```
 
-2. Search for the latest Git ports and variations:
+- Search for the latest Git ports and variations:
 
 ```console
 port search git
@@ -65,7 +65,7 @@ port search git
 port variants git
 ```
 
-3. Install Git with bash completion, the OS X keychain helper, and the docs:
+- Install Git with bash completion, the OS X keychain helper, and the docs:
 
 ```console
 sudo port install git +bash_completion+credential_osxkeychain+doc
@@ -121,19 +121,19 @@ For Fedora, Git packages are available through [dnf](https://docs.fedoraproject.
 
 For dnf, use the following command from the shell
 
-```bash
+```console
 sudo dnf install git
 ```
 
 or the following for yum
 
-```bash
+```console
 sudo yum install git
 ```
 
 Verify the installation was successful by running the version command.
 
-```bash
+```console
 git --version
 ```
 
@@ -163,7 +163,7 @@ sudo emerge --ask --verbose dev-vcs/git
 
 #### For Ubuntu / Debian
 
-1. Install necessary dependencies using apt-get.
+- Install necessary dependencies using apt-get.
 
 ```console
 sudo apt-get update
@@ -173,13 +173,13 @@ sudo apt-get update
 sudo apt-get install libcurl4-gnutls-dev libexpat1-dev gettext libz-dev libssl-dev asciidoc xmlto docbook2x
 ```
 
-2. Clone the Git source.
+- Clone the Git source.
 
 ```console
 git clone https://git.kernel.org/pub/scm/git/git.git
 ```
 
-3. To build Git and install it under /usr, run make:
+- To build Git and install it under /usr, run make:
 
 ```console
 make all doc info prefix=/usr
@@ -191,47 +191,47 @@ sudo make install install-doc install-html install-info install-man prefix=/usr
 
 #### For Fedora
 
-1. You can install the necessary build dependencies with dnf from your shell:
+- You can install the necessary build dependencies with dnf from your shell:
 
-```bash
+```console
 sudo dnf install curl-devel expat-devel gettext-devel openssl-devel perl-devel zlib-devel asciidoc xmlto docbook2X
 ```
 
 Or if you are using yum, you may need to install the Extra Packages for Enterprise Linux (EPEL) repository first:
 
-```bash
+```console
 sudo yum install epel-release
 ```
 
-```bash
+```console
 sudo yum install curl-devel expat-devel gettext-devel openssl-devel perl-devel zlib-devel asciidoc xmlto docbook2X
 ```
 
-2. Symlink docbook2X to the filename that the Git build expects:
+- Symlink docbook2X to the filename that the Git build expects:
 
-```bash
+```console
 sudo ln -s /usr/bin/db2x_docbook2texi /usr/bin/docbook2x-texi
 ```
 
-3. Clone the Git source.
+- Clone the Git source.
 
-```bash
+```console
 git clone https://git.kernel.org/pub/scm/git/git.git
 ```
 
-4. To build Git and install it under /usr, run make:
+- To build Git and install it under /usr, run make:
 
-```bash
+```console
 make all doc prefix=/usr
 ```
 
-```bash
+```console
 sudo make install install-doc install-html install-man prefix=/usr
 ```
 
 #### For CentOS
 
-1. Install dependencies first:
+- Install dependencies first:
 
 ```console
 sudo yum group install "Development tools"
@@ -241,43 +241,43 @@ sudo yum group install "Development tools"
 sudo yum install gettext-devel openssl-devel perl-CPAN perl-devel zlib-devel
 ```
 
-2. Next, from [Git's release page](https://github.com/git/git/tags){:target="_blank"} select a stable Git version (one without an -rc suffix) you prefer to install.
+- Next, from [Git's release page](https://github.com/git/git/tags){:target="_blank"} select a stable Git version (one without an -rc suffix) you prefer to install.
 
-3. Once you have selected the preferred Git version, right click and copy the link of the file with the `tar.gz` extension.
+- Once you have selected the preferred Git version, right click and copy the link of the file with the `tar.gz` extension.
 
-4. Download the selected url with `wget`:
+- Download the selected url with `wget`:
 
 ```console
 wget https://github.com/git/git/archive/refs/tags/v2.37.2.tar.gz -O gitdownloadversion.tar.gz
 ```
 This command downloads `v2.37.2.tar.gz` as `gitdownloadversion.tar.gz`.
 
-5. Use the following command to unpack the file using `tar`, then decompress and extract the file using `-zxf` option:
+- Use the following command to unpack the file using `tar`, then decompress and extract the file using `-zxf` option:
 
 ```console
 tar -zxf gitdownloadversion.tar.gz
 ```
 
-6. Change directory to the new unpacked folder:
+- Change directory to the new unpacked folder:
 
 ```console
 cd gitdownloadversion-*
 ```
 
-7. To compile the downloaded Git files, create a Makefile:
+- To compile the downloaded Git files, create a Makefile:
 
 ```console
 make configure
 ./configure --prefix=/usr/local
 ```
 
-8. When Makefile is ready, compile and install:
+- When Makefile is ready, compile and install:
 
 ```console
 sudo make install
 ```
 
-9. Verify the installation was successful by running the version command.
+- Verify the installation was successful by running the version command.
 
 ```console
 git --version
