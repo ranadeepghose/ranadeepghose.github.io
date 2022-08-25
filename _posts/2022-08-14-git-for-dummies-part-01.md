@@ -52,4 +52,4 @@ A basic Git workflow is explained in the following diagram.
     Committed Files ->> Working Directory: git checkout
     Committed Files ->> Working Directory: git merge
 ```
-Now that we know the basic concepts of Git, we will dive into how to install Git on MacOS, Windows and Linux in the next part.
+Now that we know the basic concepts of Git, we will dive into [how to install Git on MacOS, Windows and Linux](https://3point0.blog/posts/git-for-dummies-part-02/) in the next part.
