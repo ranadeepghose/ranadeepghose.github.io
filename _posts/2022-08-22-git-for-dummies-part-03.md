@@ -1,7 +1,7 @@
 ---
 title: Git for Dummies - Part 03
 author: ranadeep
-date: 2022-08-12 07:51:00 +0530
+date: 2022-08-22 06:45:00 +0530
 categories: [Git, How To]
 tags: [intro]
 ---
@@ -14,11 +14,11 @@ To configure Git, we use the command `git config`. This command can accept param
 
 There are 3 different configuration levels in Git. They are:
 
-1. System (--system) - This configuration level covers an entire user, machine and all the repos in it. Changes made in this level affects the entire system and all repos in the system is affected. Editing the system level configuration is often discouraged because of this.
+1. **System** (`--system`) - This configuration level covers an entire user, machine and all the repos in it. Changes made in this level affects the entire system and all repos in the system is affected. Editing the system level configuration is often discouraged because of this.
 
-2. Global (--global) - This configuration level affects the User level. This means that configuration changes will apply to all the files of the user who is currently operating the system. 
+2. **Global** (`--global`) - This configuration level affects the User level. This means that configuration changes will apply to all the files of the user who is currently operating the system. 
 
-3. Repository (--local) - This configuration level only affects a specific repo (repository). 
+3. **Repository** (`--local`) - This configuration level only affects a specific repo (repository). 
 
 The configuration variables can be located at various places depending on your platform. 
 
@@ -101,7 +101,7 @@ user.email=user@email.com
 core.editor=editor-name
 ```
 
-These were the basic configurations you will need to start working with Git. However, there are several other configuration parameters that you can modify as per your requirements. You can find a full and detailed [list of Git Configuration here](https://git-scm.com/book/en/v2/Customizing-Git-Git-Configuration).
+These were the basic configurations you will need to start working with Git. However, there are several other configuration parameters that you can modify as per your requirements. You can find a full and detailed [list of Git Configuration here](https://git-scm.com/book/en/v2/Customizing-Git-Git-Configuration){:target="_blank"}.
 
 That's all for now, in the next part we will discuss how to use Git with a Local Repository.
 

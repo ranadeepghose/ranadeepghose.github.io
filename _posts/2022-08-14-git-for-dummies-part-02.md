@@ -285,4 +285,4 @@ git --version
 
 If successfully installed, it will return the Git version.
 
-So that is how you can install Git on your system. In the next part, we will discuss how to configure Git before we can use it.
+So that is how you can install Git on your system. In the next part, we will discuss [how to configure Git](https://3point0.blog/posts/git-for-dummies-part-03/) before we can use it.
