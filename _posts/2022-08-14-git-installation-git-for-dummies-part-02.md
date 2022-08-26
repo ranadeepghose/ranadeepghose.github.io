@@ -1,5 +1,5 @@
 ---
-title: Git for Dummies - Part 02
+title: Git Installation - Git for Dummies, Part 02
 author: ranadeep
 date: 2022-08-14 07:51:00 +0530
 categories: [Git, How To]

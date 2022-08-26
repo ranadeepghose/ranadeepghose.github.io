@@ -1,5 +1,5 @@
 ---
-title: Git for Dummies - Part 03
+title: Git Configurations - Git for Dummies, Part 03
 author: ranadeep
 date: 2022-08-22 06:45:00 +0530
 categories: [Git, How To]
@@ -50,7 +50,7 @@ To set up Git username and email use the following commands:
 git config --global user.name <your name>
 git config --global user.email <user@email.com> 
 ```
-> Please change `<your name>` and `<user@email.com>` with your own name and email.
+> Please replace `<your name>` and `<user@email.com>` with your own name and email.
 {: .prompt-warning }
 
 ### Configure Default Text Editor

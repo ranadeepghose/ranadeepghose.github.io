@@ -1,5 +1,5 @@
 ---
-title: Git for Dummies - Part 01
+title: How Git Works - Git for Dummies, Part 01
 author: ranadeep
 date: 2022-08-14 03:41:00 +0530
 categories: [Git, How To]
