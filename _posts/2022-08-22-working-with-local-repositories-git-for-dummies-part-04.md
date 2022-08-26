@@ -157,7 +157,7 @@ git branch [branch-name]
 
 Some basic commands for `git branch` are:
 
-```console
+
 |Option     |Description                        |
 |:----------|----------------------------------:| 
 | -r        | List the remote branches          |
@@ -165,7 +165,7 @@ Some basic commands for `git branch` are:
 | -m        | Rename old branch                 |
 | -d        | Delete a branch                   |
 | -r -d     | Delete a remote branch            |
-```
+
 
 ## Merging
 

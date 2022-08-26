@@ -103,7 +103,7 @@ core.editor=editor-name
 
 These were the basic configurations you will need to start working with Git. However, there are several other configuration parameters that you can modify as per your requirements. You can find a full and detailed [list of Git Configuration here](https://git-scm.com/book/en/v2/Customizing-Git-Git-Configuration){:target="_blank"}.
 
-That's all for now, in the next part we will discuss how to use Git with a Local Repository.
+That's all for now, in the next part we will discuss how to use [Git with a Local Repository](https://3point0.blog/posts/working-with-local-repositories-git-for-dummies-part-04/).
 
 
 
