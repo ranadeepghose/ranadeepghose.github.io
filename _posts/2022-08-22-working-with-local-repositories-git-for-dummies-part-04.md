@@ -1,5 +1,6 @@
 ---
 title: Working with Local Repositories - Git for Dummies, Part 04
+description: This tutorial covers the step by step process to push data from git local repository to remote repository.
 author: ranadeep
 date: 2022-08-22 10:35:00 +0530
 categories: [Git, How To]
